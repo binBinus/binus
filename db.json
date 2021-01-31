@@ -8,7 +8,7 @@
     "venue": "Bangungan Sekolah Seni Bina UTM",
     "organizer": "Sekolah Seni Bina UTM",
     "year": "2015"
-   
+   "participant":"3",
   },
 {
     "eventName": "UTM The lead in Architecture",
@@ -16,6 +16,7 @@
     "venue": "Dewan Serbaguna FABU",
     "organizer": "Sekolah Seni Bina UTM",
     "year": "2016"
+    "participant":"2",
   },
 {
     "eventName": "Professional Talk Series 1",
@@ -23,6 +24,7 @@
     "venue": "Bangungan Sekolah Seni Bina UTM",
     "organizer": "Sekolah Seni Bina UTM",
     "year": "2016"
+   "participant":"3",
     
   },
 {
@@ -31,6 +33,7 @@
     "venue": "Bangungan Sekolah Seni Bina UTM",
     "organizer": "Sekolah Seni Bina UTM",
     "year": "2016"
+    "participant":"3",
     
   },
 {
@@ -39,6 +42,32 @@
     "venue": "Bangungan Sekolah Seni Bina UTM",
     "organizer": "Sekolah Seni Bina UTM",
     "year": "2020"
+    "participant":"1",
+    
+  },
+{
+    "eventName": "Cabaran Mahasiswa Norma Baru",
+    "date": "30.01.2020",
+    "venue": "Facebook live MPP UTM",
+    "organizer": "MPP UTM",
+    "year": "2020"
+    "participant":"2",
+  },
+{
+    "eventName": "Form research to design in arhitecture",
+    "date": "30.01.2018",
+    "venue": "Bangungan Sekolah Seni Bina UTM",
+    "organizer": "Sekolah Seni Bina UTM",
+    "year": "2018"
+    "participant":"1",
+  },
+{
+    "eventName": "Importance of Architecture Drawer",
+    "date": "30.01.2017",
+    "venue": "Bangungan Sekolah Seni Bina UTM",
+    "organizer": "Sekolah Seni Bina UTM",
+    "year": "2017"
+    "participant":"0",
     
   },
 {
@@ -49,33 +78,12 @@
     "year": "2020"
   },
 {
-    "eventName": "Form research to design in arhitecture",
-    "date": "30.01.2018",
-    "venue": "Bangungan Sekolah Seni Bina UTM",
-    "organizer": "Sekolah Seni Bina UTM",
-    "year": "2018"
-  },
-{
-    "eventName": "Importance of Architecture Drawer",
-    "date": "30.01.2017",
-    "venue": "Bangungan Sekolah Seni Bina UTM",
-    "organizer": "Sekolah Seni Bina UTM",
-    "year": "2017"
-    
-  },
-{
     "eventName": "Cabaran Mahasiswa Norma Baru",
     "date": "30.01.2020",
     "venue": "Facebook live MPP UTM",
     "organizer": "MPP UTM",
     "year": "2020"
-  },
-{
-    "eventName": "Cabaran Mahasiswa Norma Baru",
-    "date": "30.01.2020",
-    "venue": "Facebook live MPP UTM",
-    "organizer": "MPP UTM",
-    "year": "2020"
+    "participant":"0",
   },
 {
     "eventName": "Form research to design in arhitecture",
@@ -83,6 +91,7 @@
     "venue": "Bangungan Sekolah Seni Bina UTM",
     "organizer": "Sekolah Seni Bina UTM",
     "year": "2018"
+    "participant":"0",
   },
 {
     "eventName": "Importance of Architecture Drawer",
@@ -90,6 +99,7 @@
     "venue": "Bangungan Sekolah Seni Bina UTM",
     "organizer": "Sekolah Seni Bina UTM",
     "year": "2017"
+    "participant":"0",
     
   },
 {
@@ -98,7 +108,7 @@
     "venue": "Bangungan Sekolah Seni Bina UTM",
     "organizer": "Sekolah Seni Bina UTM",
     "year": "2017"
-    
+    "participant":"0",
   },
 {
     "eventName": "Form research to design in arhitecture",
@@ -106,14 +116,9 @@
     "venue": "Bangungan Sekolah Seni Bina UTM",
     "organizer": "Sekolah Seni Bina UTM",
     "year": "2018"
+    "participant":"0",
   },
-{
-    "eventName": "Form research to design in arhitecture",
-    "date": "30.01.2018",
-    "venue": "Bangungan Sekolah Seni Bina UTM",
-    "organizer": "Sekolah Seni Bina UTM",
-    "year": "2018"
-  },
+
 {
     "eventName": "UTM The lead in Architecture",
     "date": "30.01.2019",
@@ -127,14 +132,9 @@
     "venue": "Facebook live MPP UTM",
     "organizer": "MPP UTM",
     "year": "2020"
+    "participant":"0",
   },
-{
-    "eventName": "Cabaran Mahasiswa Norma Baru",
-    "date": "30.01.2020",
-    "venue": "Facebook live MPP UTM",
-    "organizer": "MPP UTM",
-    "year": "2020"
-  },
+
 {
     "eventName": "Cabaran Mahasiswa Norma Baru",
     "date": "30.01.2020",
@@ -148,6 +148,7 @@
     "venue": "Hotel Grand JB",
     "organizer": "Sekolah Seni Bina UTM",
     "year": "2019"
+    "participant":"4",
   },
 {
     "eventName": "Majlis Makan Malam Tahunan School Of Architecture",
@@ -155,6 +156,7 @@
     "venue": "Hotel Grand JB",
     "organizer": "Sekolah Seni Bina UTM",
     "year": "2015"
+    "participant":"9",
   },
 {
     "eventName": "Majlis Makan Malam Tahunan School Of Architecture",
@@ -169,6 +171,7 @@
     "venue": "Hotel Grand JB",
     "organizer": "Sekolah Seni Bina UTM",
     "year": "2020"
+    "participant":"10",
   },
 {
     "eventName": "Majlis Makan Malam Tahunan School Of Architecture",
@@ -176,6 +179,7 @@
     "venue": "Hotel Grand JB",
     "organizer": "Sekolah Seni Bina UTM",
     "year": "2017"
+    "participant":"10",
   },
 {
     "eventName": "Majlis Makan Malam Tahunan School Of Architecture",
@@ -183,6 +187,7 @@
     "venue": "Hotel Grand JB",
     "organizer": "Sekolah Seni Bina UTM",
     "year": "2015"
+    "participant":"9",
   },
 {
     "eventName": "Majlis Makan Malam Tahunan School Of Architecture",
@@ -190,6 +195,7 @@
     "venue": "Hotel Grand JB",
     "organizer": "Sekolah Seni Bina UTM",
     "year": "2016"
+    "participant":"6",
   },
 {
     "eventName": "Arhitecture Olimpic",
@@ -197,6 +203,7 @@
     "venue": "School Of Architecture",
     "organizer": "School Of Architecture",
     "year": "2019"
+    "participant":"0",
   }
 
 
