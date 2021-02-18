@@ -1,0 +1,67 @@
+.left {
+    float: left;
+    width: 40%;
+    min-width: 500px;
+    height: 100vh;
+    background-color: #2a363b;
+    padding: 100px 50px 0px;
+}
+
+.right {
+    width: 60%;
+    height: 100vh;
+    min-width: 600px;
+    background-color: #e84a5f;
+    padding: 5% 20px 0px;
+}
+
+.box {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding-left: 50px;
+}
+
+.qrcode-text-btn {
+  background: url(https://image.flaticon.com/icons/png/512/66/66580.png) 50% 50% no-repeat; 
+  background-size: 30px;
+  width: 30px;
+  height: 30px;
+  margin: 15px 0px 0px;
+  cursor: pointer;
+  margin-bottom: 0px;
+  float: right;
+}
+.qrcode-text-btn > input[type="file"] {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  color: rgb(189, 189, 189);
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.details {
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.detailsleft {
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.detailsright {
+    width: 50%;
+    height: 100%;
+}

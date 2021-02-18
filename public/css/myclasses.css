@@ -1,0 +1,148 @@
+.box {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  padding-left: 50px;
+}
+
+strong {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+.container-services {
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: center;
+  width: 100%;
+}
+.container-services h1 {
+  letter-spacing: 1px;
+}
+.container-services p {
+  color: #555;
+  letter-spacing: 1px;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: 100%;
+  background-color: darkgray;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: auto;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
+.container .items-work-list {
+  border-radius: 3px;
+  border: 1px solid #f1f1f1;
+  margin: 0 15px;
+  padding: 20px;
+  transition: 100ms all linear 0s;
+}
+@media (max-width: 768px) {
+  .container .items-work-list {
+    margin-bottom: 15px;
+  }
+}
+.container .items-work-list:hover {
+  border-color: #545bc4;
+  box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.1);
+}
+.container .items-work-list .items-work-title {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 16px;
+  margin-bottom: 15px;
+}
+.container .items-work-list .items-work-title span {
+  align-items: center;
+  background: #545bc4;
+  border-radius: 50px;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  margin-bottom: 10px;
+  width: 40px;
+}
+.container .items-work-list .items-work-title .fas {
+  color: #fff;
+}
+.container .items-work-list .items-work-title strong {
+  display: block;
+}
+.container .items-work-list .items-work-description {
+  padding: 0;
+  margin: 0;
+  color: #555;
+}
+.container .items-work-list .items-work-description .btn-link {
+  color: #e84a5f;
+  display: block;
+  margin-top: 15px;
+  text-align: right;
+}
+
+/* ==========================================================================
+   WYSIWYG
+   ========================================================================== */
+
+#editor {
+	resize: vertical;
+	overflow: auto;
+	line-height: 1.5;
+	/* background-color: #fafafa; */
+	background-image: none;
+	border: 0;
+	/* border-bottom: 1px solid #3b8dbd; */
+	min-height: 150px;
+	/* box-shadow: none; */
+	padding: 8px 16px;
+	/* margin: 0 auto; */
+	font-size: 14px;
+	/* transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s; */
+}
+#editor:focus {
+	/* background-color: #f0f0f0; */
+	/* border-color: #38af5b; */
+	/* box-shadow: none; */
+	outline: 0 none;
+}
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+.btn {
+	font-family: "Raleway", sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	border: none;
+	border-bottom: 0.15em solid black;
+	padding: 0.65em 1.3em;
+}
+.btn-xs {
+	font-size: 0.8em;
+	padding: 0.25em 0.75em;
+}
+
+.btn-default {
+	border-color: #d9d9d9;
+	background-image: linear-gradient(#ffffff, #f2f2f2);
+}
+.btn-default:hover {
+	background: linear-gradient(#f2f2f2, #e6e6e6);
+}

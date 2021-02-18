@@ -1,0 +1,156 @@
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-left: 50px;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(119, 119, 119);
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(253, 188, 91, 0.884);
+}
+
+.formbox {
+    width: 70%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    padding: 8vh 0;
+}
+
+.formleft {
+    float: left;
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+}
+
+.formright {
+    width: 70%;
+    height: 100%;
+    padding: 10px;
+}
+
+.input[type=time] {
+    width: 110px;
+}
+
+.input[type=date] {
+    width: 200px;
+}
+
+.input[type=number] {
+    width: 50px;
+}
+
+label {
+    margin: 16px 0px 16px; 
+}
+
+.qr-code {
+  max-width: 200px;
+  margin: 10px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.details {
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.detailsleft {
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.detailsright {
+    width: 50%;
+    height: 100%;
+}
+
+.message {
+    color: rgb(46, 168, 46);
+}
+
+@media (max-height: 700px) {
+    .container {
+        padding: 10% 0;
+    }
+}
+
+.clipboard {
+    position: relative;
+    display: flex;
+    justify-items: center;
+    top: 70px;
+  }
+  /* You just need to get this field */
+  .copy-input {
+    max-width: 90%;
+    width: 100%;
+    background-color: #eaeaeb;
+    border: none;
+    color: #6c6c6c;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 15px 45px 15px 15px;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0 10px 15px #3d3d3d;
+    -moz-box-shadow: 0 9px 15px #3d3d3d;
+    -webkit-box-shadow: 0 9px 15px #3d3d3d;
+    margin: auto;
+  }
+  
+  .copy-input:focus {
+    outline: none;
+  }
+  
+  .copy-btn {
+    width: 40px;
+    background-color: #eaeaeb;
+    font-size: 18px;
+    padding: 6px 9px;
+    border-radius: 5px;
+    border: none;
+    color: #6c6c6c;
+    margin-left: -50px;
+    transition: all 0.4s;
+  }
+  .copy-btn:hover {
+    color: #1a1a1a;
+    cursor: pointer;
+  }
+  
+  .copy-btn:focus {
+    outline: none;
+  }
+  
+  .copied {
+    font-family: "Montserrat", sans-serif;
+    width: 100px;
+    display: none;
+    margin: auto;
+    color: #c0c0c0;
+    padding: 15px 15px;
+    background-color: #3c3c3c;
+    border-radius: 5px;
+  }

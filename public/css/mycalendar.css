@@ -1,0 +1,84 @@
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 32px repeat(6, minmax(100px, 1fr));
+  align-items: center;
+  justify-items: center;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  background: #2a363b;
+  padding: 100px;
+}
+
+.calendar > p {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  border: none;
+  text-transform: uppercase;
+  color: rgb(189, 189, 189);
+}
+
+.calendar > p:not(.th):hover {
+  background-color: #e77483;
+  transition: all .5s;
+  transform: scale(1.1);
+}
+
+.today {
+  background: #e84a5f;
+  color:rgb(102, 102, 102)
+}
+
+.th {
+  color: rgb(189, 189, 189);
+}
+
+.navigation {
+  padding: 10px;
+  text-align: center;
+}
+
+.date {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: inline-block;
+  position:relative;
+  top:-2px;
+  color: rgb(189, 189, 189);
+}
+
+.box {
+    /* padding: 100px 0; */
+    padding-left: 50px;
+    height: 100vh;
+    display: flex;
+}
+
+.prev, .next {
+  border: none;
+  outline:none;
+  background-color: transparent;
+  color: rgb(189, 189, 189);
+  transition: all .3s ease-in-out;
+  padding: 0px 30px 25px;
+}
+
+.prev:hover, .next:hover {
+  color: rgb(102, 102, 102);
+  transform: scale(1.1);
+}
+
+.prev:focus, .next:focus {
+  border: none;
+  outline: none;
+}

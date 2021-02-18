@@ -1,0 +1,64 @@
+.input {
+    background-color: #d2d9dd;
+    margin: 10px 0px 10px;
+    width: 100%;
+	padding: 5px;
+    border-radius: 8px;
+    border: none;
+    transition:all .5s ease;
+}
+
+.input:focus {
+    background-color:rgb(247, 247, 247);
+    outline: none;
+    -webkit-box-shadow: -2px 2px 13px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: -2px 2px 13px 0px rgba(0,0,0,0.3);
+    box-shadow: -2px 2px 13px 0px rgba(0,0,0,0.3);
+}
+
+.input:hover {
+    background-color:rgb(247, 247, 247);
+}
+
+.button {
+    display: block;
+    margin: 5px;
+    color: #fff;
+    background-color: #e84a5f;
+    outline: none;
+    -moz-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #d1c0c2;
+    outline: none;
+    text-decoration: none;
+}
+
+.button:active {
+    -moz-box-shadow: inset 0 0 100px #3f3434;
+    -webkit-box-shadow: inset 0 0 100px #3f3434;
+    box-shadow: inset 0 0 100px #3f3434;
+    outline: none;
+}
+
+.confirmation {
+    background-color: rgb(49, 49, 49);
+}
+
+.confirmation:hover {
+    background-color: rgb(211, 2, 2);   
+    color: white;
+}
+
+.confirmtation:hover {
+    -moz-box-shadow: inset 0 0 100px #3d1616;
+    -webkit-box-shadow: inset 0 0 100px #3d1616;
+    box-shadow: inset 0 0 100px #3d1616;
+}
